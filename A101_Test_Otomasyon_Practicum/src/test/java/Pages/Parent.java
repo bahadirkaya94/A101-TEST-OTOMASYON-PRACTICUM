@@ -46,7 +46,6 @@ public class Parent implements IParent{
     public void SelectByValue(WebElement element, String text)
     {
         Select select = new Select(element);
-        //moveToElement(element);
         select.selectByValue(text);
     }
     @Override
